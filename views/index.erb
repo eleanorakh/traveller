@@ -1,0 +1,12 @@
+Traveller
+
+<ul>
+  <% @data.map do |date, value| %>
+    <li>
+      <strong>
+        <a href=/date/<%= date.to_s %>><%= date.to_s %></a>:
+      </strong>
+      <%= value.keys.join(' -> ') %>
+    </li>
+  <% end %>
+</ul>

@@ -1,0 +1,15 @@
+<a href=/>Traveller</a> / <%= params[:date] %>
+
+<ul>
+  <% @data.map do |location_name, value| %>
+    <li>
+      <% if value['geo'].values.compact.empty? %>
+        <%= location_name %>
+      <% else %>
+        <a href=<%= "https://www.google.com/maps/place/#{value['geo'].values.join ','}" %>>
+          <%= location_name %>
+        </a>
+      <% end %>
+    </li>
+  <% end %>
+</ul>

@@ -1,0 +1,35 @@
+2014-06-26:
+  Lake Como:
+    geo:
+      lat:
+      long:
+    attractions:
+      - Attraction 1
+      - Attraction 2
+  Solignano:
+    geo:
+      lat:
+        44.6125745
+      long:
+        9.9779813
+    attractions:
+      - Attraction 1
+      - Attraction 2
+
+2014-06-27:
+  Solignano:
+    geo:
+      lat:
+      long:
+    attractions:
+      - Attraction 1
+      - Attraction 2
+
+2014-06-28:
+  Solignano:
+    geo:
+      lat:
+      long:
+    attractions:
+      - Attraction 1
+      - Attraction 2
