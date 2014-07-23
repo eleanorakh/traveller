@@ -10,6 +10,26 @@
           <%= location_name %>
         </a>
       <% end %>
+
+      <% if value['overnight'] %>
+        <a href=<%= value['overnight'] %>>(overnight)</a>
+      <% end %>
+
+      <ul>
+        <% value['attractions'].each do |attraction| %>
+          <li>
+
+            <% if attraction['url'] %>
+              <a href=<%= attraction['url'] %>><%= attraction['name'] %></a>
+            <% else %>
+              <%= attraction['name'] %>
+            <% end %>
+
+          </li>
+        <% end %>
+      </ul>
+
+
     </li>
   <% end %>
 </ul>

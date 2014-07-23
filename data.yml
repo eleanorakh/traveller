@@ -4,8 +4,10 @@
       lat:
       long:
     attractions:
-      - Attraction 1
-      - Attraction 2
+      - name: Attraction 1
+        url: http://example.com
+      - name: Attraction 2
+        url: http://example.com
   Solignano:
     geo:
       lat:
@@ -13,8 +15,11 @@
       long:
         9.9779813
     attractions:
-      - Attraction 1
-      - Attraction 2
+      - name: Carrefour Express Supermarket
+        url: http://example.com
+      - name: Attraction 2
+        url:
+    overnight: true
 
 2014-06-27:
   Solignano:
@@ -22,8 +27,8 @@
       lat:
       long:
     attractions:
-      - Attraction 1
-      - Attraction 2
+      - name: Hobby Bar
+        url: https://www.facebook.com/pages/HOBBY-BAR/56348423120
 
 2014-06-28:
   Solignano:
@@ -31,5 +36,15 @@
       lat:
       long:
     attractions:
-      - Attraction 1
-      - Attraction 2
+      - name: Attraction 1
+        url:
+      - name: Attraction 2
+        url:
+    overnight: http://reddit.com
+  Parma:
+    geo:
+      lat:
+      long:
+    attractions:
+      - name: Palazzo della Pilotta
+        url: http://en.wikipedia.org/wiki/Palazzo_della_Pilotta
