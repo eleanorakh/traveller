@@ -19,7 +19,7 @@
         url: http://example.com
       - name: Attraction 2
         url:
-    overnight: true
+    overnight: http://reddit.com
 
 2014-06-27:
   Solignano:
